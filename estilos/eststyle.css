@@ -29,9 +29,10 @@ section#login {
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 515px;
+    height: 525px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    border: 2px solid #1f1d1dc9;
+    box-shadow: 0px 0px 15px #d892f0;
     transform: translate(-50%, -50%);
     transition: width .3s, heigth .3s;
     transition-timing-function: ease;
@@ -39,7 +40,7 @@ section#login {
 section#login > div#imagem {
     background: #5f2c82 url(../imagens/wolfl.jpg.jpg) no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 165px;
 
 }
 section#login > div#formulario {
@@ -70,7 +71,7 @@ div.campo > label {
 div.campo > i {
     color: white;
    /* background-color: black;*/
-    font-size: 1.8em;
+    font-size: 1.7em;
     width: 40px;
     padding: 5px;
 }
